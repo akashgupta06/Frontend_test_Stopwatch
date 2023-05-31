@@ -1,0 +1,70 @@
+/* Background color of the web page */
+body {
+    text-align: center;
+    background-color: #171A21;
+    font-family: url(../fonts/Hupper\ Nush\ Demo.ttf);
+
+}
+
+/* Styling of the container which contains the Stopwatch */
+.stopwatch {
+    height: 410px;
+    width: 600px;
+    border: 1px solid #171A21;
+    margin-left: 490px;
+    margin-top: 50px;
+    background-image: url(../images/Clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 550px;
+}
+
+/* This styling is for the heading */
+#heading {
+    margin-top: 70px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* This styling is for the timer */
+#timer {
+    color: black;
+    font-size: 3em;
+}
+
+/* Styling for the various buttons */
+#start {
+    margin: 20px auto;
+    text-align: center;
+    color: #DAD6D6;
+    background: #48633B;
+    border: solid 2px #35492C;
+    border-radius: 5px;
+    padding: 16px 40px 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#stop {
+    margin: 20px 5px auto;
+    text-align: center;
+    color: #DAD6D6;
+    background: #721329;
+    border: solid 2px #590F20;
+    border-radius: 5px;
+    padding: 16px 40px 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#reset {
+    margin: 20px auto;
+    text-align: center;
+    color: #DAD6D6;
+    background: #564E58;
+    border: solid 2px #3E383F;
+    border-radius: 5px;
+    padding: 16px 40px 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
